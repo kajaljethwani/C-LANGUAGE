@@ -1,0 +1,11 @@
+//conditonal operators
+//input an int. write a program that check whether the number is +ve,-ve or zero.
+void main()
+{
+	int a;
+	clrscr ();
+	printf("Enter a No.");
+	scanf("%d",&a);
+	a>0?printf("%d is Positive",a):a<0?printf("%d is Negative",a):printf("%d is zero",a);
+	getch();
+}
