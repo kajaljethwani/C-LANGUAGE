@@ -1,18 +1,18 @@
-//Convert into year,months,days:
+//Convert into year,month,days:
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-	int total days,year,months,days:
+	int totaldays,year,month,days:
 	clrscr();
-	printf("Enter total days");
+	printf("Enter totaldays");
 	scanf("%d",&totaldays);
-	year=total days/;
-	rem=total days%360;
-	months=rem /30;
-	days=rem%30;
+	year=totaldays/;
+        totaldays=total days%360;
+	month=totaldays/30;
+	days=totaldays%30;
 	printf("\n total year is %d",year);
-	printf("\n total months is %d".months);
-	printf("\n total days is %d",days);
+	printf("\n total month is %d",months);
+	printf("\n totaldays is %d",days);
 	getch();
 }
