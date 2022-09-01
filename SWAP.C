@@ -1,6 +1,6 @@
 //SWAP:
 #include<stdio.h>
-#imclude<conio.h>
+#include<conio.h>
 void main();
 {
 	int a=10,b=20,c;
