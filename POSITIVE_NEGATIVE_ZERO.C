@@ -1,5 +1,7 @@
 //conditonal operators
 //input an int. write a program that check whether the number is +ve,-ve or zero.
+#include<stdio.h>
+#include<conio.h>
 void main()
 {
 	int a;
