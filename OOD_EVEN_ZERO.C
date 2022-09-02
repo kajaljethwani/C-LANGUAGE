@@ -1,4 +1,6 @@
 //input an int.no write a program that check whether the number is Odd, Even or Zero
+#include<stdio.h>
+#include<conio.h>
 void main()
 {
 	int a;
